@@ -1,0 +1,508 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes.*/
+
+/* =======================================================
+* 	Template Style
+* ======================================================= */
+
+head {padding: 0px; margin: 0px;}
+body {padding: 0px; margin: 0px;}
+.all{
+display: flex;
+flex-direction: column;
+width: auto;
+padding: 0px;
+margin: 0px;
+}
+/*---------------------------------------
+    Navigation Links section
+-----------------------------------------*/
+.menuA{
+  width: auto;
+    display: inline-block;
+      margin-right: 5px;
+      margin-left: 5px;
+      margin-bottom: 5px;
+      margin-top: : 0px;
+      padding: 0px;
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+      height: 90px;
+      background: url(hero.jpg) no-repeat 50% 50%;
+      background-size: cover;
+      overflow: hidden;
+      clear: both;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 50px;
+      height: 90px;
+
+      background: rgba(0,0,0,.87);
+}
+
+
+
+.logo{
+       float:none;
+       display:block;
+       text-align: center;
+       margin: 8px;
+       height: 80px;
+       width: 10%;
+       border: 1px solid #770acc;
+     }
+
+div.menuA nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0,0,0,0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 30px;
+      transition: 1s;
+      height: 85px;
+
+
+}
+
+div.menuA nav.black ul {
+      background: #000;
+}
+
+div.menuA nav ul li {
+      display: inline-block;
+      padding: 3px 40px;
+      margin: 7px 1px;
+      height: 70px;
+      border-radius: 6px;
+       vertical-align: bottom;
+
+}
+
+div.menuA nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 10px;
+
+}
+
+div.menuA nav ul li:hover {
+    background-color: #088fa7;
+    color: white;
+}
+
+div.menuA nav ul li.active {
+   background-color: #4c85af;
+   color: white;
+}
+
+.logo {
+      line-height: 70px;
+      height: 70px;
+      position: fixed;
+      float: left;
+      margin: 5px 30px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+/*---------------------------------------
+    Definition of site content section
+-----------------------------------------*/
+#home {
+    color: white;
+    background: linear-gradient(to right,  #33BEBE ,#3699ba);
+    font-family: Verdana,sans-serif;
+    width: auto;
+    font-size: 22px;
+    height: 100px;
+    border: 5px solid linear-gradient(to right,  #33BEBE ,#3699ba);
+   padding-top: 10px;
+    padding-left: 10px;
+}
+ .app {
+  width: auto;
+  margin: 25px;
+  margin-bottom: 40px;
+  max-height: 500px;
+
+
+
+}
+
+.description{
+  color: #7C8B88;
+ float:right;
+ text-align:left;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 28px;
+ line-height: 1.3;
+ width: 49%;
+ padding-top: 0px;
+ margin: 1px;
+}
+
+
+.imges {
+ float: left;
+ display: table;
+ width: 48%;
+ margin: 1px;
+ padding-top: 30px;
+ height : 100px;
+
+}
+
+div.imges img {
+    width: 90%;
+    height: auto;
+}
+
+.text-H{
+  color: rgba(48,119,114,.88);
+   background-color: rgba(246,255,70,.16);
+  text-align:left;
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.3;
+  margin: 10px;
+  margin-bottom: 30px;
+  height: 240px;
+  padding: 13px;
+  border: 3px solid rgba(246,255,70,.15);
+  border-bottom: 20px solid rgba(246,255,70,.10);
+  border-radius: 4px;
+
+ }
+ div.text-H span { color: #303030;   font-size: 23px;}
+
+ * {
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -ms-box-sizing: border-box;
+ }
+ /*---------------------------------------
+     Induction cards Applications section
+ -----------------------------------------*/
+ #news{
+   padding: 1px;
+   width: auto;
+   height: auto;
+   margin-bottom: 20px;
+
+
+ }
+
+ div.Profile {
+     border: 2px solid #ccc;
+     border-radius: 5px;
+     margin: 6px;
+     float: left;
+     width: 20%;
+      background-color: rgba(253,255,221,.5);
+ }
+
+ div.Profile:hover {
+     border: 2px solid #555;
+
+ }
+
+ div.Profile img {
+     width: 99.99%;
+     height: auto;
+      border-radius: 4px 4px 0px 0px;
+ }
+
+ div.text {
+     padding: 10px;
+     text-align: center;
+ }
+
+.text p{
+  padding: 5px;
+   text-align: center;
+
+}
+
+.button-p{
+
+  padding: 2px 20px;
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+   margin-bottom: 3px;
+
+   }
+  div.button-p button {
+     display: column;
+     text-align: center;
+     margin-left: 2px;
+     margin-right: 2px;
+     display: inline-block;
+     width: 44%;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14px;
+     font-weight: bold;
+     padding: 3px 15px;
+     margin: 7px 3px;
+     height: 40px;
+     border-radius: 6px;
+     vertical-align: bottom;
+     border-radius: 8px;
+     border: 3px solid #555555;
+     margin-top: 8px;
+     vertical-align: bottom;
+     overflow: hidden;
+   }
+
+      #button-p1  {
+      background-color: rgb(0,131,205);
+      text-align: center;
+      color: white;
+    }
+         #button-p2  {
+       background-color: rgb(0,205,45);
+       text-align: center;
+       color: white;
+     }
+       #button-p1:hover {
+       background-color: rgb(84,177,255);
+       color: rgb(60,66,69);
+       border: 3px solid white;
+   }
+       #button-p2:hover {
+       background-color: rgb(56,235,138);
+       color: rgb(60,66,69);
+       border: 3px solid white;
+   }
+   /*---------------------------------------
+       Tail page links section
+   -----------------------------------------*/
+.tail{
+  color: white;
+   background-color: #333333;
+  font-family: Verdana,sans-serif;
+  width: auto;
+  font-size: 22px;
+  height: 90px;
+  border: 3px solid #333333;
+  margin-top: 10px;
+ }
+ .t-list1{
+   font-size: 13px;
+   margin-left: 8px;
+   float:left;
+   width: 30%;
+   line-height: 1.7;
+ }
+
+.t-list2{
+  font-size: 13px;
+  float:right;
+  width: 30%;
+  line-height: 1.7;
+}
+
+.t-list3{
+  font-size: 13px;
+  float:right;
+  width: 30%;
+  line-height: 1.7;
+}
+
+.button5 {
+    background-color: white;
+    color: black;
+     border-radius: 8px;
+    border: 3px solid #555555;
+    margin-top: 8px;
+}
+
+.button5:hover {
+    background-color: rgb(230,15,15);
+    color: white;
+    border: 3px solid white;
+}
+/*---------------------------------------
+    Social Media links section
+-----------------------------------------*/
+.tail-H{
+  color: white;
+   background-color: #5f5f60;
+  font-family: Verdana,sans-serif;
+  text-align:center;
+  width: auto;
+  font-size: 14px;
+  height: 80px;
+}
+
+
+
+.social-icon{
+  width: auto;
+  display: inline-block;
+  padding: 3px 20px;
+  margin: 4px 1px;
+  vertical-align: bottom;
+  overflow: hidden;
+
+ }
+
+ .social-icon a {
+       padding: 10px;
+       margin-left: 5px;
+       margin-right: 5px;
+ }
+
+ /*---------------------------------------
+     flexibility size section
+ -----------------------------------------*/
+@media screen and (max-width: 1120px) {
+}
+@media screen and (max-width: 1120px) {
+  #home { font-size: 23px; height: 90px;}
+  .description{ font-size: 25px;}
+  .imges { padding-top: 30px; }
+  div.Profile{width: 32%; margin: 6px 4px;}
+
+  .button-p{
+    padding: 0px 10px;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+     margin-bottom: 3px;
+     width: auto;
+
+     }
+
+}
+@media screen and (max-width: 992px) {
+  #home { font-size: 20px; height: 90px;}
+  .description{ font-size: 20px;}
+  .imges { padding-top: 25px; }
+  .tail{ height: 100px;}
+  div.Profile{width: 32%; margin: 6px 4px;}
+
+  .button-p{
+    padding: 0px 10px;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+     margin-bottom: 3px;
+     font-size: 16px;
+
+     }
+}
+
+@media screen and (max-width: 768px) {
+
+  div.menuA nav ul {
+    padding-right: 15px;
+
+  }
+  div.menuA nav ul li {
+height: 30px;
+margin-top: 18px;
+margin-right: 10px;
+padding: 25px;
+line-height: 10px;
+}
+
+  div.menuA nav ul li a {
+    font-size: 16px;
+    padding: 1px;
+
+  }
+
+  .app {
+  display: block;
+  flex-direction: column;
+  height: auto;
+  }
+  #home{ font-size: 16px; height: 70px; line-height: 25px;}
+  .description{ font-size: 19px;}
+  .imges { padding-top: 18px; }
+  .tail{ height: 100px;}
+
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+            margin: 5px 10px;
+          }
+
+.text-H{font-size: 15px;}
+div.Profile{width: 45%; margin: 6px 4px;}
+
+.button-p{
+  padding: 0px 10px;
+  display: block;
+  margin-left: 5%;
+  margin-right: 5%;
+   margin-bottom: 3px;
+
+   }
+
+}
+@media screen and (max-width: 500px) {
+div.Profile{width: 90%; margin: 2px;}
+}
+@media screen and (max-width: 480px) {
+  div.menuA nav ul {
+    padding-right: 5px;
+
+  }
+  div.menuA nav ul li {
+height: 30px;
+margin-top: 14px;
+margin-right: 7px;
+padding: 16px;
+line-height: 5px;
+
+
+  }
+  div.menuA nav ul li a {
+    font-size: 13px;
+    padding: 4px;
+
+       }
+
+  .app {
+  display: block;
+  flex-direction: column;
+  height: auto;
+}
+#home { font-size: 13px; height: 50px; line-height: 5px;}
+.description{ font-size: 13px; width: 98%;}
+.imges { padding-top: 15px; width: 98%;}
+.tail{ height: 90px;}
+.text-H{font-size: 13px;}
+
+
+}
