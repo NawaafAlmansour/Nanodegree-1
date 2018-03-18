@@ -26,7 +26,7 @@ margin: 0px;
       margin-right: 5px;
       margin-left: 5px;
       margin-bottom: 5px;
-      margin-top: : 0px;
+      margin-top: 0px;
       padding: 0px;
       font-family: "Helvetica Neue",sans-serif;
       font-weight: lighter;
@@ -259,7 +259,6 @@ div.imges img {
 
    }
   div.button-p button {
-     display: column;
      text-align: center;
      margin-left: 2px;
      margin-right: 2px;
